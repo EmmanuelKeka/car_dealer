@@ -4,9 +4,44 @@
 
 {% block body %}
 
-    <h1></h1>
-    <p>
-        Welcome to my website !
-    </p>
+    <h1 class="heading1"> Welcome to FunCarDealer</h1>
+    <div class="w3-content w3-display-container">
+        <img class="mySlides" src="{{ asset('/assets/image/bmw2.jpg') }}" >
+        <img class="mySlides" src="{{ asset('/assets/image/mercedes.jpg') }}" >
+        <img class="mySlides" src="{{ asset('/assets/image/rs6.jpg') }}" >
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+    <h2 class="heading1"> FunCarDealer </h2>
+    <br>
+    <p class="heading1"> here you will find find beatiful cars for all at a creat price</p>
+    <br>
+    <p class="heading1"> we are very proud of our cataloge navigate to the car page to have a look</p>
+    <br class="heading1">
+    <p class="heading1"> we also provide all of vehucul with a cover for 1 year covering any domage done to the car during that period</p>
+    <br>
+    <p class="heading1"> check out contact page to get all infomation about how to contact our customer service</p>
+    <br>
+    <p class="heading1" > if you want to find out more about us please check the about page for more information  </p>
+    </div>
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex-1].style.display = "block";
+        }
+    </script>
 
 {% endblock %}
