@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello SignUpController!{% endblock %}
+
+{% block body %}
+    <h2 class="heading1">Sign Up</h2>
+    <h2 class="heading1" id="errorm" style="color: red"></h2>
+    {{ form_start(signUp_form) }}
+        {{ form(signUp_form) }}
+    {{ form_end(signUp_form) }}
+{% endblock %}
