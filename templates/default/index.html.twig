@@ -12,7 +12,19 @@
         <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
         <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
     </div>
-    <h2 class="heading1"> FunCarDealer </h2>
+    <h2 class="heading1"> FunCarDealer
+
+        {% if app.user %}
+            {{ app.user.username }}
+        {% endif %}
+
+        {% if app.user == false %}
+            gg
+        {% endif %}
+
+
+
+    </h2>
     <br>
     <p class="heading1"> here you will find find beatiful cars for all at a creat price</p>
     <br>
