@@ -26,9 +26,13 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
     #[ORM\Column(type: 'string', length: 255)]
     private $role = 'ROLE_USER';
 
+    #[ORM\OneToMany(mappedBy: 'user', targetEntity: Transaction::class)]
+    private $Transactions;
+
     public function __construct()
     {
-
+        $this->transactions = new ArrayCollection();
+        $this->Transactions = new ArrayCollection();
     }
 
     public function getId(): ?int
@@ -108,4 +112,35 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
 
         return $this;
     }
+
+    /**
+     * @return Collection<int, Transaction>
+     */
+    public function getTransactions(): Collection
+    {
+        return $this->Transactions;
+    }
+
+    public function addTransaction(Transaction $transaction): self
+    {
+        if (!$this->Transactions->contains($transaction)) {
+            $this->Transactions[] = $transaction;
+            $transaction->setUser($this);
+        }
+
+        return $this;
+    }
+
+    public function removeTransaction(Transaction $transaction): self
+    {
+        if ($this->Transactions->removeElement($transaction)) {
+            // set the owning side to null (unless already changed)
+            if ($transaction->getUser() === $this) {
+                $transaction->setUser(null);
+            }
+        }
+
+        return $this;
+    }
+
 }

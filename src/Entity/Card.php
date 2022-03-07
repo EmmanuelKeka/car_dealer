@@ -3,6 +3,8 @@
 namespace App\Entity;
 
 use App\Repository\CardRepository;
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\Entity(repositoryClass: CardRepository::class)]
@@ -15,6 +17,11 @@ class Card
 
     #[ORM\Column(type: 'string', length: 255)]
     private $CardNumber;
+
+    public function __construct()
+    {
+
+    }
 
     public function getId(): ?int
     {

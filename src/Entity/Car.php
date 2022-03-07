@@ -3,6 +3,8 @@
 namespace App\Entity;
 
 use App\Repository\CarRepository;
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\Entity(repositoryClass: CarRepository::class)]
@@ -19,8 +21,14 @@ class Car
     #[ORM\Column(type: 'string', length: 255)]
     private $model;
 
-    #[ORM\Column(type: 'string', length: 255)]
+    #[ORM\Column(type: 'string', length: 255,)]
     private $image;
+
+
+    public function __construct()
+    {
+
+    }
 
     public function getId(): ?int
     {

@@ -97,7 +97,9 @@
         ],
         "post-update-cmd": [
             "@auto-scripts"
-        ]
+        ],
+        "unit": "./vendor/bin/phpunit",
+        "unit1": "./vendor/bin/phpunit tests/unit/Type1_User.php"
     },
     "conflict": {
         "symfony/symfony": "*"

@@ -2,6 +2,7 @@
 
 namespace App\Controller;
 
+use App\Entity\Text;
 use App\Entity\Transaction;
 use App\Form\TransactionType;
 use App\Repository\TransactionRepository;
@@ -10,6 +11,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\HttpFoundation\RequestStack;
+use App\Entity\Car;
 
 #[Route('/transaction')]
 class TransactionController extends AbstractController
@@ -33,9 +35,10 @@ class TransactionController extends AbstractController
     {
         $transaction = new Transaction();
         $session = $this->requestStack->getSession();
-        $transaction->setCar($session->get("Car"));
-        $transaction->setCard($session->get("Card"));
-        $transaction->setUser($this->getUser());
+        $car = new Car;
+        $transaction->setCar($car);
+        //$transaction->setUser($this->getUser());
+        //$transaction->setText(new Text());
         $transactionRepository->add($transaction);
         return $this->redirectToRoute('app_transaction_index', [], Response::HTTP_SEE_OTHER);
     }
