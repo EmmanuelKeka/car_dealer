@@ -17,7 +17,8 @@ class SignUpType extends AbstractType
     {
         $builder
             ->add('username')
-            ->add('password',PasswordType::class)
+            ->add('password')
+//            ->add('password',PasswordType::class)
             ->add('SignUp',SubmitType::class)
         ;
     }

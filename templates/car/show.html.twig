@@ -3,11 +3,32 @@
 {% block title %}Car{% endblock %}
 
 {% block body %}
-    <h1 class="heading1" >Car</h1>
-        <img src="{{  asset(car.image) }}" alt="car_image" class="CarImage">
-        <h2 class="heading1">Make: {{ car.make }}</h2>
-        <h2 class="heading1"> Model: {{ car.model }}</h2>
-        <h2 class="heading1"> Year: </h2>
-        <h2 class="heading1"> Model: €</h2>
-        <a href="{{ path('app_card_new') }}"><input type="submit" name="submit" value="Buy now"></a>
+    <h1>Car</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ car.id }}</td>
+            </tr>
+            <tr>
+                <th>Make</th>
+                <td>{{ car.make }}</td>
+            </tr>
+            <tr>
+                <th>Model</th>
+                <td>{{ car.model }}</td>
+            </tr>
+            <tr>
+                <th>Image</th>
+                <td>{{ car.image }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('car_index') }}">back to list</a>
+
+    <a href="{{ path('car_edit', {'id': car.id}) }}">edit</a>
+
+    {{ include('car/_delete_form.html.twig') }}
 {% endblock %}

@@ -13,37 +13,84 @@ class Transaction
     #[ORM\Column(type: 'integer')]
     private $id;
 
-    #[ORM\ManyToOne(targetEntity: User::class, inversedBy: 'Transactions')]
-    private $user;
+    #[ORM\Column(type: 'string', length: 255)]
+    private $cardNumber;
+
+    #[ORM\Column(type: 'string', length: 255)]
+    private $cardName;
+
+    #[ORM\Column(type: 'string', length: 255)]
+    private $CardCvv;
+
+    #[ORM\ManyToOne(targetEntity: User::class, inversedBy: 'transactions')]
+    #[ORM\JoinColumn(nullable: false)]
+    private $buyer;
 
     #[ORM\ManyToOne(targetEntity: Car::class)]
-    private $Car;
+    #[ORM\JoinColumn(nullable: false)]
+    private $car;
 
     public function getId(): ?int
     {
         return $this->id;
     }
 
-    public function getUser(): ?User
+    public function getCardNumber(): ?string
     {
-        return $this->user;
+        return $this->cardNumber;
     }
 
-    public function setUser(?User $user): self
+    public function setCardNumber(string $cardNumber): self
     {
-        $this->user = $user;
+        $this->cardNumber = $cardNumber;
+
+        return $this;
+    }
+
+    public function getCardName(): ?string
+    {
+        return $this->cardName;
+    }
+
+    public function setCardName(string $cardName): self
+    {
+        $this->cardName = $cardName;
+
+        return $this;
+    }
+
+    public function getCardCvv(): ?string
+    {
+        return $this->CardCvv;
+    }
+
+    public function setCardCvv(string $CardCvv): self
+    {
+        $this->CardCvv = $CardCvv;
+
+        return $this;
+    }
+
+    public function getBuyer(): ?User
+    {
+        return $this->buyer;
+    }
+
+    public function setBuyer(?User $buyer): self
+    {
+        $this->buyer = $buyer;
 
         return $this;
     }
 
     public function getCar(): ?Car
     {
-        return $this->Car;
+        return $this->car;
     }
 
-    public function setCar(?Car $Car): self
+    public function setCar(?Car $car): self
     {
-        $this->Car = $Car;
+        $this->car = $car;
 
         return $this;
     }

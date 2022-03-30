@@ -8,11 +8,12 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class ContactController extends AbstractController
 {
-    #[Route('/contact', name: 'app_contact')]
-    public function index(): Response
+    #[Route('/ContactUs', name: 'contact')]
+    public function contact(): Response
     {
-        return $this->render('contact/index.html.twig', [
-            'controller_name' => 'ContactController',
-        ]);
+        $template = 'contact/index.html.twig';
+        $argsArray = [];
+
+        return $this->render($template, $argsArray);
     }
 }

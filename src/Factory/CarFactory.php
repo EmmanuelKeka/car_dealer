@@ -41,6 +41,7 @@ final class CarFactory extends ModelFactory
             // TODO add your default values here (https://symfony.com/bundles/ZenstruckFoundryBundle/current/index.html#model-factories)
             'make' => self::faker()->text(),
             'model' => self::faker()->text(),
+            'image' => self::faker()->text(),
         ];
     }
 

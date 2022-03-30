@@ -26,13 +26,12 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
     #[ORM\Column(type: 'string', length: 255)]
     private $role = 'ROLE_USER';
 
-    #[ORM\OneToMany(mappedBy: 'user', targetEntity: Transaction::class)]
-    private $Transactions;
+    #[ORM\OneToMany(mappedBy: 'buyer', targetEntity: Transaction::class, orphanRemoval: true)]
+    private $transactions;
 
     public function __construct()
     {
         $this->transactions = new ArrayCollection();
-        $this->Transactions = new ArrayCollection();
     }
 
     public function getId(): ?int
@@ -114,18 +113,18 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
     }
 
     /**
-     * @return Collection<int, Transaction>
+     * @return Collection|Transaction[]
      */
     public function getTransactions(): Collection
     {
-        return $this->Transactions;
+        return $this->transactions;
     }
 
     public function addTransaction(Transaction $transaction): self
     {
-        if (!$this->Transactions->contains($transaction)) {
-            $this->Transactions[] = $transaction;
-            $transaction->setUser($this);
+        if (!$this->transactions->contains($transaction)) {
+            $this->transactions[] = $transaction;
+            $transaction->setBuyer($this);
         }
 
         return $this;
@@ -133,14 +132,18 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
 
     public function removeTransaction(Transaction $transaction): self
     {
-        if ($this->Transactions->removeElement($transaction)) {
+        if ($this->transactions->removeElement($transaction)) {
             // set the owning side to null (unless already changed)
-            if ($transaction->getUser() === $this) {
-                $transaction->setUser(null);
+            if ($transaction->getBuyer() === $this) {
+                $transaction->setBuyer(null);
             }
         }
 
         return $this;
     }
-
+    public function __toString(): string
+    {
+        // TODO: Implement __toString() method.
+        return $this->username;
+    }
 }

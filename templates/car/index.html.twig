@@ -3,16 +3,37 @@
 {% block title %}Car index{% endblock %}
 
 {% block body %}
-    <h1 class="heading1">Cars</h1>
+    <h1>Car index</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Make</th>
+                <th>Model</th>
+                <th>Image</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
         {% for car in cars %}
-            <div class="flex-container">
-                <a href="{{ path('app_car_show', {'id': car.id}) }}">
-                    <div>
-                        <img src="{{ asset(car.image)}}" alt="car_image" class="CarImage">
-                        <h2 class="heading1">Make: {{ car.make }}</h2>
-                        <h2 class="heading1"> Model: {{ car.model }}</h2>
-                </div>
-                </a>
-            </div>
+            <tr>
+                <td>{{ car.id }}</td>
+                <td>{{ car.make }}</td>
+                <td>{{ car.model }}</td>
+                <td>{{ car.image }}</td>
+                <td>
+                    <a href="{{ path('car_show', {'id': car.id}) }}">show</a>
+                    <a href="{{ path('car_edit', {'id': car.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="5">no records found</td>
+            </tr>
         {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('car_new') }}">Create new</a>
 {% endblock %}

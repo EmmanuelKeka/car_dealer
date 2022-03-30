@@ -14,6 +14,7 @@ class CarType extends AbstractType
         $builder
             ->add('make')
             ->add('model')
+            ->add('image')
         ;
     }
 

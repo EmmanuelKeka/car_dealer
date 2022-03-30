@@ -45,15 +45,8 @@ class UserController extends AbstractController
             $hashedPassword = $this->passwordHasher->hashPassword($user, $plainPassword);
             $user->setPassword($hashedPassword);
 
-            try
-            {
-                $entityManager->persist($user);
-                $entityManager->flush();
-            }
-            catch (Exception $e)
-            {
-                //Error handing code
-            }
+            $entityManager->persist($user);
+            $entityManager->flush();
 
             return $this->redirectToRoute('user_index', [], Response::HTTP_SEE_OTHER);
         }

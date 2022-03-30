@@ -34,9 +34,9 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
             <a class="nav-item nav-link" href="{{ url('home') }}">home</a>
-            <a class="nav-item nav-link" href="{{ path('app_car_index') }}">Cars</a>
-            <a class="nav-item nav-link" href="{{ url('app_contact') }}">Contact</a>
-            <a class="nav-item nav-link" href="{{ url('app_about') }}">About Us</a>
+            <a class="nav-item nav-link" href="{{ path('App_Car_Public') }}">Cars</a>
+            <a class="nav-item nav-link" href="{{ url('contact') }}">Contact</a>
+            <a class="nav-item nav-link" href="{{ url('about') }}">About Us</a>
             {% if app.user %}
                 <a class="nav-item nav-link" href="{{ url('app_profile') }}">profil</a>
             {% endif %}
