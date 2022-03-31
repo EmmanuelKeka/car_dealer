@@ -9,5 +9,13 @@
         <h2 class="heading1"> Model: {{ car.model }}</h2>
         <h2 class="heading1"> Year: </h2>
         <h2 class="heading1"> Model: €</h2>
-       <input type="submit" name="submit" value="Buy now">
+    <br>
+    <br>
+    <br>
+    {% if app.user %}
+    <a href="{{ path('App_car_buy', {'id': car.id}) }}"><input type="submit" name="submit" value="Buy now"></a>
+    {% endif %}
+    {% if app.user == false %}
+        <h2 class="heading1" style="color: #B0413E">Please login to buy</h2>
+    {% endif %}
 {% endblock %}

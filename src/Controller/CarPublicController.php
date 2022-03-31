@@ -22,7 +22,7 @@ class CarPublicController extends AbstractController
         ]);
     }
 
-    #[Route('/car/{id}', name: 'App_car_show_public', methods: ['GET'])]
+    #[Route('/car/{id}/show', name: 'App_car_show_public', methods: ['GET'])]
     public function show(Car $car): Response
     {
         return $this->render('carPublic/show.html.twig', [
