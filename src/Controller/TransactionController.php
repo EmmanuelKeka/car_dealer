@@ -12,11 +12,28 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
 #[Route('/transaction')]
+#[IsGranted('ROLE_USER')]
 class TransactionController extends AbstractController
 {
+
+    private function hasValidUserRole()
+    {
+        $user = $this->getUser();
+        $roles = $user->getRoles();
+
+        if(in_array('ROLE_ADMIN', $roles))
+            return true;
+
+        return false;
+    }
+
     #[Route('/', name: 'transaction_index', methods: ['GET'])]
     public function index(TransactionRepository $transactionRepository): Response
     {
+        if(!$this->hasValidUserRole()){
+            $this->addFlash('success', 'sorry - you tried to access a page for which you do not have permission');
+            return $this->redirectToRoute('home');
+        }
         return $this->render('transaction/index.html.twig', [
             'transactions' => $transactionRepository->findAll(),
         ]);
@@ -25,6 +42,10 @@ class TransactionController extends AbstractController
     #[Route('/new', name: 'transaction_new', methods: ['GET', 'POST'])]
     public function new(Request $request, EntityManagerInterface $entityManager): Response
     {
+        if(!$this->hasValidUserRole()){
+            $this->addFlash('success', 'sorry - you tried to access a page for which you do not have permission');
+            return $this->redirectToRoute('home');
+        }
         $transaction = new Transaction();
         $form = $this->createForm(TransactionType::class, $transaction);
         $form->handleRequest($request);
@@ -45,6 +66,10 @@ class TransactionController extends AbstractController
     #[Route('/{id}', name: 'transaction_show', methods: ['GET'])]
     public function show(Transaction $transaction): Response
     {
+        if(!$this->hasValidUserRole()){
+            $this->addFlash('success', 'sorry - you tried to access a page for which you do not have permission');
+            return $this->redirectToRoute('home');
+        }
         return $this->render('transaction/show.html.twig', [
             'transaction' => $transaction,
         ]);
@@ -53,6 +78,10 @@ class TransactionController extends AbstractController
     #[Route('/{id}/edit', name: 'transaction_edit', methods: ['GET', 'POST'])]
     public function edit(Request $request, Transaction $transaction, EntityManagerInterface $entityManager): Response
     {
+        if(!$this->hasValidUserRole()){
+            $this->addFlash('success', 'sorry - you tried to access a page for which you do not have permission');
+            return $this->redirectToRoute('home');
+        }
         $form = $this->createForm(TransactionType::class, $transaction);
         $form->handleRequest($request);
 
@@ -71,6 +100,10 @@ class TransactionController extends AbstractController
     #[Route('/{id}', name: 'transaction_delete', methods: ['POST'])]
     public function delete(Request $request, Transaction $transaction, EntityManagerInterface $entityManager): Response
     {
+        if(!$this->hasValidUserRole()){
+            $this->addFlash('success', 'sorry - you tried to access a page for which you do not have permission');
+            return $this->redirectToRoute('home');
+        }
         if ($this->isCsrfTokenValid('delete'.$transaction->getId(), $request->request->get('_token'))) {
             $entityManager->remove($transaction);
             $entityManager->flush();

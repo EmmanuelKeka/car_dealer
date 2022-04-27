@@ -2,22 +2,33 @@
 
 namespace App\Controller;
 
+use App\Entity\User;
 use App\Repository\TransactionRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\IsGranted;
 
 class ProfileController extends AbstractController
 {
+    #[IsGranted('ROLE_USER')]
     #[Route('/profile', name: 'app_profile')]
     public function profile(TransactionRepository $transactionRepository): Response
     {
-        $template = 'profile/index.html.twig';
-        $argsArray = [];
+        $user = $this->getUser();
+        $transactions = $user->getTransactions();
+//
+//        print('<pre>');
+//        var_dump($transactions);
+//        die();
 
-        return $this->render('profile/index.html.twig', [
+        $template = 'profile/index.html.twig';
+        $argsArray = [
             'controller_name' => 'ProfileController',
-            'transactions' => $transactionRepository->findAll()
-        ]);
+            'transactions' => $transactions
+            ];
+
+
+        return $this->render('profile/index.html.twig', $argsArray);
     }
 }

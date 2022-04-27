@@ -12,18 +12,40 @@ class SecurityController extends AbstractController
     /**
      * @Route("/login", name="app_login")
      */
+    private function hasValidUserRole()
+    {
+        $user = $this->getUser();
+        $roles = $user->getRoles();
+
+        if(in_array('ROLE_HR', $roles))
+            return true;
+
+        if(in_array('ROLE_MANAGER', $roles))
+            return true;
+
+        return false;
+    }
+
     public function login(AuthenticationUtils $authenticationUtils): Response
     {
+        if(!$this->hasValidUserRole()){
+            $this->addFlash('success', 'sorry - you are already logged in');
+            return $this->redirectToRoute('home');
+        }
         // if ($this->getUser()) {
         //     return $this->redirectToRoute('target_path');
         // }
+        if($this->getUser() != null) {
+            return $this->redirectToRoute('home', []);
+        }
 
         // get the login error if there is one
         $error = $authenticationUtils->getLastAuthenticationError();
         // last username entered by the user
         $lastUsername = $authenticationUtils->getLastUsername();
+        $template = 'security/login.html.twig';
 
-        return $this->render('home', ['last_username' => $lastUsername, 'error' => $error]);
+        return $this->render($template, []);
     }
 
     /**

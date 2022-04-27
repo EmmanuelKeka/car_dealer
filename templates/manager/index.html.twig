@@ -1,0 +1,32 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Transaction index{% endblock %}
+
+{% block body %}
+    <h1>Transaction index</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>CardName</th>
+                <th>Car</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for transaction in transactions %}
+            <tr>
+                <td>{{ transaction.cardName }}</td>
+                <td>{{ transaction.car.make }} {{ transaction.car.model }}</td>
+                <td>{{ transaction.car.price }}</td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="5">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    <h1>Total</h1>
+    <h1>{{ total }}</h1>
+{% endblock %}

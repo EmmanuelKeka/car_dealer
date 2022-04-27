@@ -2,76 +2,103 @@
 
 namespace App\DataFixtures;
 
+use App\Factory\TransactionFactory;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Persistence\ObjectManager;
 
 use App\Factory\UserFactory;
-use App\Factory\MakeFactory;
 use App\Factory\CarFactory;
 
 class AppFixtures extends Fixture
 {
     public function load(ObjectManager $manager): void
     {
-        UserFactory::createOne([
-            'username' => 'matt',
-            'password' => 'smith',
-            'role' => 'ROLE_ADMIN'
+        $matt = UserFactory::createOne([
+            'username' => 'customer',
+            'password' => 'customer',
+            'role' => 'ROLE_CUSTOMER'
         ]);
 
-        UserFactory::createOne([
-            'username' => 'john',
-            'password' => 'doe',
+        $johon = UserFactory::createOne([
+            'username' => 'admin',
+            'password' => 'admin',
             'role' => 'ROLE_ADMIN'
         ]);
+        $linda = UserFactory::createOne([
+            'username' => 'hr',
+            'password' => 'hr',
+            'role' => 'ROLE_HR'
+        ]);
+        $emmanuel = UserFactory::createOne([
+            'username' => 'manager',
+            'password' => 'manager',
+            'role' => 'ROLE_MANAGER'
+        ]);
 
-        CarFactory::createOne([
+        $a1 = CarFactory::createOne([
             'image' => 'assets/image/audiA1.jpeg',
             'model' => 'A1',
-            'make' => 'Audi'
+            'make' => 'Audi',
+            'price' => '13447.67'
         ]);
 
-        CarFactory::createOne([
+        $a6 = CarFactory::createOne([
             'image' => 'assets/image/audiA6.jpg',
             'model' => 'A6',
-            'make' => 'Audi'
+            'make' => 'Audi',
+            'price' => '34647.50'
         ]);
 
-        CarFactory::createOne([
+        $s2 = CarFactory::createOne([
             'image' => 'assets/image/bmw2.jpg',
             'model' => 'Series2',
-            'make' => 'BMW'
+            'make' => 'BMW',
+            'price' => '15847.56'
         ]);
 
-        CarFactory::createOne([
+        $cls = CarFactory::createOne([
             'image' => 'assets/image/cls.jpg',
             'model' => 'CLS',
-            'make' => 'Mercedes Benz'
+            'make' => 'Mercedes Benz',
+            'price' => '66057.90'
         ]);
 
-        CarFactory::createOne([
+        $focus = CarFactory::createOne([
             'image' => 'assets/image/ford_focus.jpg',
             'model' => 'Focus',
-            'make' => 'Ford'
+            'make' => 'Ford',
+            'price' => '10447.70'
         ]);
 
-        CarFactory::createOne([
+        $urus = CarFactory::createOne([
             'image' => 'assets/image/lamborghini-urus.jpg',
             'model' => 'Urus',
-            'make' => 'Lamborghini'
+            'make' => 'Lamborghini',
+            'price' => '120877.84'
         ]);
 
-        CarFactory::createOne([
-            'image' => 'assets/image/mercedes.jpg',
-            'model' => 'Benz',
-            'make' => 'Mercedes'
-        ]);
-
-        CarFactory::createOne([
+        $p911 = CarFactory::createOne([
             'image' => 'assets/image/porsh-911.jpg',
             'model' => 'Porsh',
-            'make' => '911'
+            'make' => '911',
+            'price' => '237877.34'
         ]);
+
+        TransactionFactory::createOne([
+            'cardName' => 'matt smith',
+            'cardNumber' => "7656786545675434567543",
+            'CardCvv' => '678',
+            'buyer' => $matt,
+            'car' => $a1,
+        ]);
+        TransactionFactory::createOne([
+            'cardName' => 'johon',
+            'cardNumber' => "7656786545675434567543",
+            'CardCvv' => 'CardCvv',
+            'buyer' => $johon,
+            'car' => $a6
+        ]);
+
 
     }
 }

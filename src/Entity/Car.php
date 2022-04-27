@@ -22,6 +22,9 @@ class Car
     #[ORM\Column(type: 'string', length: 255)]
     private $image;
 
+    #[ORM\Column(type: 'float')]
+    private $price;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -66,5 +69,17 @@ class Car
     {
         // TODO: Implement __toString() method.
         return $this->model;
+    }
+
+    public function getPrice(): ?float
+    {
+        return $this->price;
+    }
+
+    public function setPrice(float $price): self
+    {
+        $this->price = $price;
+
+        return $this;
     }
 }

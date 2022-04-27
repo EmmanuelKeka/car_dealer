@@ -33,20 +33,47 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-            <a class="nav-item nav-link" href="{{ url('home') }}">home</a>
-            <a class="nav-item nav-link" href="{{ path('App_Car_Public') }}">Cars</a>
-            <a class="nav-item nav-link" href="{{ url('contact') }}">Contact</a>
-            <a class="nav-item nav-link" href="{{ url('about') }}">About Us</a>
             {% if app.user %}
+                {% if app.user.role == "ROLE_CUSTOMER" %}
+                    <a class="nav-item nav-link" href="{{ url('home') }}">home</a>
+                    <a class="nav-item nav-link" href="{{ path('App_Car_Public') }}">Cars</a>
+                    <a class="nav-item nav-link" href="{{ url('contact') }}">Contact</a>
+                    <a class="nav-item nav-link" href="{{ url('about') }}">About Us</a>
+                {% endif %}
+
+                {% if app.user.role == "ROLE_ADMIN" %}
+                    <a class="nav-item nav-link" href="{{ url('user_index') }}">User</a>
+                    <a class="nav-item nav-link" href="{{ path('car_index') }}">Car</a>
+                    <a class="nav-item nav-link" href="{{ url('transaction_index') }}">Tansaction</a>
+                {% endif %}
+                {% if app.user.role == "ROLE_MANAGER" %}
+                    <a class="nav-item nav-link" href="{{ url('view_sales') }}">Veiw Sales</a>
+                    <a class="nav-item nav-link" href="{{ path('car_index') }}">Car</a>
+                {% endif %}
+                {% if app.user.role == "ROLE_HR" %}
+                    <a class="nav-item nav-link" href="{{ url('user_index') }}">User</a>
+                {% endif %}
                 <a class="nav-item nav-link" href="{{ url('app_profile') }}">profil</a>
             {% endif %}
 
             {% if app.user == false %}
+                <a class="nav-item nav-link" href="{{ url('home') }}">home</a>
+                <a class="nav-item nav-link" href="{{ path('App_Car_Public') }}">Cars</a>
+                <a class="nav-item nav-link" href="{{ url('contact') }}">Contact</a>
+                <a class="nav-item nav-link" href="{{ url('about') }}">About Us</a>
                 <a class="nav-item nav-link" href="{{ url('app_login') }}">login</a>
             {% endif %}
         </div>
     </div>
 </nav>
+
+<div>
+    {% for message in app.flashes('success') %}
+        <p style="background-color: pink; padding: 1rem">
+            {{ message }}
+        </p>
+    {% endfor %}
+</div>
 
 <div class="container">
     <div class="row">

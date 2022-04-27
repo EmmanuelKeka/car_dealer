@@ -9,6 +9,7 @@
     <a href="{{ path('app_logout') }}"><input type="submit" name="submit" value="Log out"></a>
     <tbody>
 
+
     <h1 class="heading1">purchase history</h1>
 
     <table class="table">
@@ -20,21 +21,19 @@
         </tr>
         </thead>
         <tbody>
-        {% if transactions != null  %}
+
+
         {% for transaction in transactions %}
-            {% if transaction.buyer.id == app.user.id  %}
-                <tr>
-                    <td><img src="{{ asset(transaction.car.image) }}" alt="car_image" class="CartItmage"></td>
-                    <td><h2 class="heading1"> {{ transaction.car.make }}</h2></td>
-                    <td><h2 class="heading1"> {{ transaction.car.model }}</h2></td>
-                </tr>
-            {% endif %}
+            <tr>
+                <td><img src="{{ asset(transaction.car.image) }}" alt="car_image" class="CartItmage"></td>
+                <td><h2 class="heading1"> {{ transaction.car.make }}</h2></td>
+                <td><h2 class="heading1"> {{ transaction.car.model }}</h2></td>
+            </tr>
         {% else %}
             <tr>
                 <td colspan="2">no records found</td>
             </tr>
         {% endfor %}
-        {% endif %}
         </tbody>
     </table>
 {% endblock %}

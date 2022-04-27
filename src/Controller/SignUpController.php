@@ -13,6 +13,14 @@ use Symfony\Component\PasswordHasher\Hasher\UserPasswordHasherInterface;
 
 class SignUpController extends AbstractController
 {
+    private function hasValidUserRole()
+    {
+        $user = $this->getUser();
+        if($user ==null)
+            return true;
+
+        return false;
+    }
     private UserPasswordHasherInterface $passwordHasher;
 
     public function __construct(UserPasswordHasherInterface $passwordHasher)
@@ -23,8 +31,12 @@ class SignUpController extends AbstractController
     #[Route('/signup', name: 'app_sign_up')]
     public function index(Request $request,EntityManagerInterface $entityManager): Response
     {
+        if(!$this->hasValidUserRole()){
+            $this->addFlash('success', 'sorry - you are already logged in');
+            return $this->redirectToRoute('home');
+        }
         $user = new User();
-        $user->setRole("Standard_user");
+        $user->setRole("ROLE_CUSTOMER");
         $form = $this->createForm(SignUpType::class, $user,[
             'action' => $this->generateUrl('app_sign_up'),
         ]);
