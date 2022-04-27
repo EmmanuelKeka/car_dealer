@@ -9,23 +9,17 @@ use Symfony\Component\Security\Http\Authentication\AuthenticationUtils;
 
 class SecurityController extends AbstractController
 {
-    /**
-     * @Route("/login", name="app_login")
-     */
     private function hasValidUserRole()
     {
         $user = $this->getUser();
-        $roles = $user->getRoles();
-
-        if(in_array('ROLE_HR', $roles))
-            return true;
-
-        if(in_array('ROLE_MANAGER', $roles))
+        if($user ==null)
             return true;
 
         return false;
     }
-
+    /**
+     * @Route("/login", name="app_login")
+     */
     public function login(AuthenticationUtils $authenticationUtils): Response
     {
         if(!$this->hasValidUserRole()){
