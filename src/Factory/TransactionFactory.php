@@ -42,6 +42,7 @@ final class TransactionFactory extends ModelFactory
             'cardNumber' => self::faker()->text(),
             'cardName' => self::faker()->text(),
             'CardCvv' => self::faker()->text(),
+            'date' => self::faker()->datetime(),
         ];
     }
 

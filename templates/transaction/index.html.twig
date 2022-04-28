@@ -12,6 +12,7 @@
                 <th>CardNumber</th>
                 <th>CardName</th>
                 <th>CardCvv</th>
+                <th>Date</th>
                 <th>actions</th>
             </tr>
         </thead>
@@ -22,6 +23,7 @@
                 <td>{{ transaction.cardNumber }}</td>
                 <td>{{ transaction.cardName }}</td>
                 <td>{{ transaction.CardCvv }}</td>
+                <td>{{ transaction.date ? transaction.date|date('Y-m-d') : '' }}</td>
                 <td>
                     <a href="{{ path('transaction_show', {'id': transaction.id}) }}">show</a>
                     <a href="{{ path('transaction_edit', {'id': transaction.id}) }}">edit</a>
@@ -29,7 +31,7 @@
             </tr>
         {% else %}
             <tr>
-                <td colspan="5">no records found</td>
+                <td colspan="6">no records found</td>
             </tr>
         {% endfor %}
         </tbody>

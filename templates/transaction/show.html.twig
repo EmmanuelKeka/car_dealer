@@ -23,6 +23,10 @@
                 <th>CardCvv</th>
                 <td>{{ transaction.CardCvv }}</td>
             </tr>
+            <tr>
+                <th>Date</th>
+                <td>{{ transaction.date ? transaction.date|date('Y-m-d') : '' }}</td>
+            </tr>
         </tbody>
     </table>
 

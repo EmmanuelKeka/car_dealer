@@ -90,13 +90,31 @@ class AppFixtures extends Fixture
             'CardCvv' => '678',
             'buyer' => $matt,
             'car' => $a1,
+            'date' => new \DateTime('2013-01-15')
         ]);
         TransactionFactory::createOne([
             'cardName' => 'johon',
             'cardNumber' => "7656786545675434567543",
             'CardCvv' => 'CardCvv',
             'buyer' => $johon,
-            'car' => $a6
+            'car' => $a6,
+            'date' => new \DateTime('2013-02-15')
+        ]);
+        TransactionFactory::createOne([
+            'cardName' => 'johon',
+            'cardNumber' => "7656786545675434567543",
+            'CardCvv' => 'CardCvv',
+            'buyer' => $johon,
+            'car' => $a6,
+            'date' => new \DateTime('2013-04-15')
+        ]);
+        TransactionFactory::createOne([
+            'cardName' => 'johon',
+            'cardNumber' => "7656786545675434567543",
+            'CardCvv' => 'CardCvv',
+            'buyer' => $johon,
+            'car' => $a6,
+            'date' => new \DateTime('2013-04-15')
         ]);
 
 

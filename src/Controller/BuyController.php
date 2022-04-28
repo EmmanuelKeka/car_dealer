@@ -20,6 +20,7 @@ class BuyController extends AbstractController
         $transaction = new Transaction();
         $transaction->setCar($car);
         $transaction->setBuyer($this->getUser());
+        $transaction->setDate(new \DateTime(date("Y-m-d")));
         $form = $this->createForm(BuyType::class, $transaction);
         $form->handleRequest($request);
         if ($form->isSubmitted() && $form->isValid()) {
