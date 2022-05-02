@@ -6,12 +6,14 @@ use App\Entity\Car;
 use App\Entity\Transaction;
 use App\Form\TransactionType;
 use Doctrine\ORM\EntityManagerInterface;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\IsGranted;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use App\Form\BuyType;
 
+#[IsGranted('ROLE_USER')]
 class BuyController extends AbstractController
 {
     #[Route('/car/{id}/buy', name: 'App_car_buy', methods: ['GET', 'POST'])]

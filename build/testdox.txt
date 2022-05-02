@@ -1,0 +1,79 @@
+Car (App\Tests\Unit\Car)
+ [x] Car make with data set #0
+ [x] Car make with data set #1
+ [x] Car make with data set #2
+ [x] Car model with data set #0
+ [x] Car model with data set #1
+ [x] Car model with data set #2
+ [x] Image with data set #0
+ [x] Image with data set #1
+ [x] Image with data set #2
+ [x] Price with data set #0
+ [x] Price with data set #1
+ [x] Price with data set #2
+
+Transction (App\Tests\Unit\Transction)
+ [x] Car with data set #0
+ [x] Car with data set #1
+ [x] Car with data set #2
+ [x] Card name with data set #0
+ [x] Card name with data set #1
+ [x] Card name with data set #2
+ [x] Card number with data set #0
+ [x] Card number with data set #1
+ [x] Card number with data set #2
+ [x] Card cvv with data set #0
+ [x] Card cvv with data set #1
+ [x] Card cvv with data set #2
+ [x] Buyer with data set #0
+ [x] Buyer with data set #1
+ [x] Buyer with data set #2
+ [x] Date with data set #0
+ [x] Date with data set #1
+ [x] Date with data set #2
+
+User (App\Tests\Unit\User)
+ [x] User name with data set #0
+ [x] User name with data set #1
+ [x] User name with data set #2
+ [x] Password with data set #0
+ [x] Password with data set #1
+ [x] Password with data set #2
+ [x] Role with data set #0
+ [x] Role with data set #1
+ [x] Role with data set #2
+ [x] Add transaction with data set #0
+ [x] Add transaction with data set #1
+ [x] Add transaction with data set #2
+ [x] Remove transaction
+
+About Page (App\Tests\WebTest\AboutPage)
+ [x] Tittle
+ [x] Heading
+ [x] Paragraphe
+
+Cars Page (App\Tests\WebTest\CarsPage)
+ [ ] Tittle
+ [ ] Heading
+ [ ] Heading
+ [ ] Head
+
+Contact Page (App\Tests\WebTest\ContactPage)
+ [ ] Something
+
+Home Page (App\Tests\WebTest\HomePage)
+ [x] Heading
+ [x] Paragraphe
+
+Login Page (App\Tests\WebTest\LoginPage)
+ [x] Tittle
+ [x] Heading
+ [ ] Label
+
+Profile Page (App\Tests\WebTest\ProfilePage)
+ [ ] Tittle
+
+Sign Up Page (App\Tests\WebTest\SignUpPage)
+ [x] Tittle
+ [x] Heading
+

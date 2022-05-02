@@ -9,23 +9,11 @@ use Symfony\Component\Security\Http\Authentication\AuthenticationUtils;
 
 class SecurityController extends AbstractController
 {
-    private function hasValidUserRole()
-    {
-        $user = $this->getUser();
-        if($user ==null)
-            return true;
-
-        return false;
-    }
     /**
      * @Route("/login", name="app_login")
      */
     public function login(AuthenticationUtils $authenticationUtils): Response
     {
-        if(!$this->hasValidUserRole()){
-            $this->addFlash('success', 'sorry - you are already logged in');
-            return $this->redirectToRoute('home');
-        }
         // if ($this->getUser()) {
         //     return $this->redirectToRoute('target_path');
         // }

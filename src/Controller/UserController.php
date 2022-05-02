@@ -30,6 +30,8 @@ class UserController extends AbstractController
 
         if(in_array('ROLE_MANAGER', $roles))
             return true;
+        if(in_array('ROLE_ADMIN', $roles))
+            return true;
 
         return false;
     }
