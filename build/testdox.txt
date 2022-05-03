@@ -1,4 +1,8 @@
-Car (App\Tests\Unit\Car)
+Car Public (App\Tests\CarPublic)
+ [x] Tittle
+ [x] Heading
+
+Car (Unit\Car)
  [x] Car make with data set #0
  [x] Car make with data set #1
  [x] Car make with data set #2
@@ -12,7 +16,7 @@ Car (App\Tests\Unit\Car)
  [x] Price with data set #1
  [x] Price with data set #2
 
-Transction (App\Tests\Unit\Transction)
+Transction (Unit\Transction)
  [x] Car with data set #0
  [x] Car with data set #1
  [x] Car with data set #2
@@ -32,7 +36,7 @@ Transction (App\Tests\Unit\Transction)
  [x] Date with data set #1
  [x] Date with data set #2
 
-User (App\Tests\Unit\User)
+User (Unit\User)
  [x] User name with data set #0
  [x] User name with data set #1
  [x] User name with data set #2
@@ -47,33 +51,44 @@ User (App\Tests\Unit\User)
  [x] Add transaction with data set #2
  [x] Remove transaction
 
-About Page (App\Tests\WebTest\AboutPage)
+About Page
  [x] Tittle
  [x] Heading
  [x] Paragraphe
 
-Cars Page (App\Tests\WebTest\CarsPage)
- [ ] Tittle
- [ ] Heading
- [ ] Heading
- [ ] Head
+Cars Page
+ [x] Tittle
+ [x] Heading
+ [x] Heading
 
-Contact Page (App\Tests\WebTest\ContactPage)
- [ ] Something
+Contact Page
+ [x] Something
 
-Home Page (App\Tests\WebTest\HomePage)
+Home Page
  [x] Heading
  [x] Paragraphe
 
-Login Page (App\Tests\WebTest\LoginPage)
+Login Page
  [x] Tittle
  [x] Heading
- [ ] Label
 
-Profile Page (App\Tests\WebTest\ProfilePage)
- [ ] Tittle
-
-Sign Up Page (App\Tests\WebTest\SignUpPage)
+Manager Page (App\Tests\WebTest\ManagerPage)
  [x] Tittle
  [x] Heading
+ [x] Other user access denied
+
+Profile Page
+ [x] Tittle
+
+Sign Up Page
+ [x] Tittle
+ [x] Heading
+
+User Role Accessibility (App\Tests\WebTest\UserRoleAccessibility)
+ [x] Transaction page access
+ [x] User page access
+ [x] Car page access
+ [x] Transaction page access denied
+ [x] User page access denied
+ [x] Car page access denied
 

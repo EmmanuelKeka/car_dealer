@@ -3,7 +3,7 @@
 {% block title %}Profile{% endblock %}
 
 {% block body %}
-    <h1 class="heading1"> profil </h1>
+    <h1 class="heading1">profil</h1>
     <img class="loginLogo" src="{{ asset('/assets/image/loginLogo.png')}}">
     <h2 class="heading1">Username: {{ app.user.username }}</h2>
     <a href="{{ path('app_logout') }}"><input type="submit" name="submit" value="Log out"></a>

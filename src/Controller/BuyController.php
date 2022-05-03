@@ -14,6 +14,7 @@ use Symfony\Component\Routing\Annotation\Route;
 use App\Form\BuyType;
 
 #[IsGranted('ROLE_USER')]
+#[IsGranted('ROLE_CUSTOMER')]
 class BuyController extends AbstractController
 {
     #[Route('/car/{id}/buy', name: 'App_car_buy', methods: ['GET', 'POST'])]

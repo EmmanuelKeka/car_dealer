@@ -1,16 +1,17 @@
 <?php
 
+namespace App\Tests;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
-class LoginPageTest extends WebTestCase
+class CarPublicTest extends WebTestCase
 {
     public function testTittle(): void
     {
-        $url = '/login';
+        $url = '/Cars';
         $httpMethod = 'GET';
         $client = static::createClient();
-        $searchText = 'Log in!';
+        $searchText = 'Cars';
         $cssSelector = 'title';
         $crawler = $client->request($httpMethod, $url);
         $content = $client->getResponse()->getContent();
@@ -19,15 +20,10 @@ class LoginPageTest extends WebTestCase
     }
     public function testHeading(): void
     {
-        $url = '/login';
-        $httpMethod = 'GET';
         $client = static::createClient();
-        $searchText = 'Please sign in';
-        $cssSelector = 'h1';
-        $crawler = $client->request($httpMethod, $url);
-        $content = $client->getResponse()->getContent();
-        $this->assertResponseIsSuccessful();
-        $this->assertSelectorTextContains($cssSelector, $searchText);
-    }
+        $crawler = $client->request('GET', '/Cars');
 
+        $this->assertResponseIsSuccessful();
+        $this->assertSelectorTextContains('h1', 'Cars');
+    }
 }

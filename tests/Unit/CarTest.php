@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Tests\Unit;
+namespace Unit;
 
 use App\Entity\Car;
 use PHPUnit\Framework\TestCase;

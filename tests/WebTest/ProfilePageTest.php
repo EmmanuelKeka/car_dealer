@@ -1,21 +1,31 @@
 <?php
 
-namespace App\Tests\WebTest;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
+use App\Repository\UserRepository;
+use Symfony\Component\HttpFoundation\Response;
 
 class ProfilePageTest extends WebTestCase
 {
     public function testTittle(): void
     {
+        $method = 'GET';
         $url = '/profile';
-        $httpMethod = 'GET';
+        $username = 'admin';
+        $okay200Code = Response::HTTP_OK;
         $client = static::createClient();
-        $searchText = 'Profile';
-        $cssSelector = 'title';
-        $crawler = $client->request($httpMethod, $url);
-        $content = $client->getResponse()->getContent();
+        $client->followRedirects();
+        $userRepository = static::getContainer()->get(UserRepository::class);
+        $testUser = $userRepository->findOneByUsername($username);
+        $client->loginUser($testUser);
+        $crawler = $client->request($method, $url);
         $this->assertResponseIsSuccessful();
-        $this->assertSelectorTextContains($cssSelector, $searchText);
+        $responseCode = $client->getResponse()->getStatusCode();
+        $this->assertSame($okay200Code, $responseCode);
+        $expectedText = 'Username: admin';
+        $contentSelector = 'h2';
+        $this->assertSelectorTextContains($contentSelector, $expectedText);
+
     }
+
 }
