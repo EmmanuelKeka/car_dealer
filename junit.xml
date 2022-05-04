@@ -1,128 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="" tests="68" assertions="118" errors="0" warnings="0" failures="0" skipped="0" time="1.811724">
-    <testsuite name="Project Test Suite" tests="68" assertions="118" errors="0" warnings="0" failures="0" skipped="0" time="1.811724">
-      <testsuite name="App\Tests\CarPublicTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\CarPublicTest.php" tests="2" assertions="6" errors="0" warnings="0" failures="0" skipped="0" time="0.301610">
-        <testcase name="testTittle" class="App\Tests\CarPublicTest" classname="App.Tests.CarPublicTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\CarPublicTest.php" line="9" assertions="3" time="0.285366"/>
-        <testcase name="testHeading" class="App\Tests\CarPublicTest" classname="App.Tests.CarPublicTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\CarPublicTest.php" line="21" assertions="3" time="0.016243"/>
+  <testsuite name="" tests="68" assertions="118" errors="0" warnings="0" failures="0" skipped="0" time="3.119161">
+    <testsuite name="Project Test Suite" tests="68" assertions="118" errors="0" warnings="0" failures="0" skipped="0" time="3.119161">
+      <testsuite name="App\Tests\CarPublicTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\CarPublicTest.php" tests="2" assertions="6" errors="0" warnings="0" failures="0" skipped="0" time="1.714936">
+        <testcase name="testTittle" class="App\Tests\CarPublicTest" classname="App.Tests.CarPublicTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\CarPublicTest.php" line="9" assertions="3" time="1.676227"/>
+        <testcase name="testHeading" class="App\Tests\CarPublicTest" classname="App.Tests.CarPublicTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\CarPublicTest.php" line="21" assertions="3" time="0.038710"/>
       </testsuite>
-      <testsuite name="Unit\CarTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\CarTest.php" tests="12" assertions="12" errors="0" warnings="0" failures="0" skipped="0" time="0.001182">
-        <testsuite name="Unit\CarTest::testCarMake" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.000711">
-          <testcase name="testCarMake with data set #0" class="Unit\CarTest" classname="Unit.CarTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\CarTest.php" line="13" assertions="1" time="0.000624"/>
-          <testcase name="testCarMake with data set #1" class="Unit\CarTest" classname="Unit.CarTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\CarTest.php" line="13" assertions="1" time="0.000044"/>
-          <testcase name="testCarMake with data set #2" class="Unit\CarTest" classname="Unit.CarTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\CarTest.php" line="13" assertions="1" time="0.000043"/>
+      <testsuite name="Unit\CarTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\CarTest.php" tests="12" assertions="12" errors="0" warnings="0" failures="0" skipped="0" time="0.000709">
+        <testsuite name="Unit\CarTest::testCarMake" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.000486">
+          <testcase name="testCarMake with data set #0" class="Unit\CarTest" classname="Unit.CarTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\CarTest.php" line="13" assertions="1" time="0.000404"/>
+          <testcase name="testCarMake with data set #1" class="Unit\CarTest" classname="Unit.CarTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\CarTest.php" line="13" assertions="1" time="0.000023"/>
+          <testcase name="testCarMake with data set #2" class="Unit\CarTest" classname="Unit.CarTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\CarTest.php" line="13" assertions="1" time="0.000060"/>
         </testsuite>
-        <testsuite name="Unit\CarTest::testCarModel" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.000156">
-          <testcase name="testCarModel with data set #0" class="Unit\CarTest" classname="Unit.CarTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\CarTest.php" line="24" assertions="1" time="0.000061"/>
-          <testcase name="testCarModel with data set #1" class="Unit\CarTest" classname="Unit.CarTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\CarTest.php" line="24" assertions="1" time="0.000043"/>
-          <testcase name="testCarModel with data set #2" class="Unit\CarTest" classname="Unit.CarTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\CarTest.php" line="24" assertions="1" time="0.000052"/>
+        <testsuite name="Unit\CarTest::testCarModel" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.000064">
+          <testcase name="testCarModel with data set #0" class="Unit\CarTest" classname="Unit.CarTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\CarTest.php" line="24" assertions="1" time="0.000031"/>
+          <testcase name="testCarModel with data set #1" class="Unit\CarTest" classname="Unit.CarTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\CarTest.php" line="24" assertions="1" time="0.000017"/>
+          <testcase name="testCarModel with data set #2" class="Unit\CarTest" classname="Unit.CarTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\CarTest.php" line="24" assertions="1" time="0.000017"/>
         </testsuite>
-        <testsuite name="Unit\CarTest::testImage" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.000154">
-          <testcase name="testImage with data set #0" class="Unit\CarTest" classname="Unit.CarTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\CarTest.php" line="35" assertions="1" time="0.000073"/>
-          <testcase name="testImage with data set #1" class="Unit\CarTest" classname="Unit.CarTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\CarTest.php" line="35" assertions="1" time="0.000038"/>
-          <testcase name="testImage with data set #2" class="Unit\CarTest" classname="Unit.CarTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\CarTest.php" line="35" assertions="1" time="0.000044"/>
+        <testsuite name="Unit\CarTest::testImage" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.000064">
+          <testcase name="testImage with data set #0" class="Unit\CarTest" classname="Unit.CarTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\CarTest.php" line="35" assertions="1" time="0.000032"/>
+          <testcase name="testImage with data set #1" class="Unit\CarTest" classname="Unit.CarTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\CarTest.php" line="35" assertions="1" time="0.000016"/>
+          <testcase name="testImage with data set #2" class="Unit\CarTest" classname="Unit.CarTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\CarTest.php" line="35" assertions="1" time="0.000016"/>
         </testsuite>
-        <testsuite name="Unit\CarTest::testPrice" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.000161">
-          <testcase name="testPrice with data set #0" class="Unit\CarTest" classname="Unit.CarTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\CarTest.php" line="46" assertions="1" time="0.000074"/>
-          <testcase name="testPrice with data set #1" class="Unit\CarTest" classname="Unit.CarTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\CarTest.php" line="46" assertions="1" time="0.000046"/>
-          <testcase name="testPrice with data set #2" class="Unit\CarTest" classname="Unit.CarTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\CarTest.php" line="46" assertions="1" time="0.000041"/>
-        </testsuite>
-      </testsuite>
-      <testsuite name="Unit\TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" tests="18" assertions="18" errors="0" warnings="0" failures="0" skipped="0" time="0.001118">
-        <testsuite name="Unit\TransctionTest::testCar" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.000179">
-          <testcase name="testCar with data set #0" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="15" assertions="1" time="0.000087"/>
-          <testcase name="testCar with data set #1" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="15" assertions="1" time="0.000046"/>
-          <testcase name="testCar with data set #2" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="15" assertions="1" time="0.000046"/>
-        </testsuite>
-        <testsuite name="Unit\TransctionTest::testCardName" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.000187">
-          <testcase name="testCardName with data set #0" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="26" assertions="1" time="0.000084"/>
-          <testcase name="testCardName with data set #1" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="26" assertions="1" time="0.000048"/>
-          <testcase name="testCardName with data set #2" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="26" assertions="1" time="0.000054"/>
-        </testsuite>
-        <testsuite name="Unit\TransctionTest::testCardNumber" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.000181">
-          <testcase name="testCardNumber with data set #0" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="36" assertions="1" time="0.000088"/>
-          <testcase name="testCardNumber with data set #1" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="36" assertions="1" time="0.000046"/>
-          <testcase name="testCardNumber with data set #2" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="36" assertions="1" time="0.000046"/>
-        </testsuite>
-        <testsuite name="Unit\TransctionTest::testCardCvv" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.000192">
-          <testcase name="testCardCvv with data set #0" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="47" assertions="1" time="0.000090"/>
-          <testcase name="testCardCvv with data set #1" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="47" assertions="1" time="0.000045"/>
-          <testcase name="testCardCvv with data set #2" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="47" assertions="1" time="0.000056"/>
-        </testsuite>
-        <testsuite name="Unit\TransctionTest::testBuyer" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.000203">
-          <testcase name="testBuyer with data set #0" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="58" assertions="1" time="0.000085"/>
-          <testcase name="testBuyer with data set #1" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="58" assertions="1" time="0.000046"/>
-          <testcase name="testBuyer with data set #2" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="58" assertions="1" time="0.000073"/>
-        </testsuite>
-        <testsuite name="Unit\TransctionTest::testDate" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.000176">
-          <testcase name="testDate with data set #0" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="69" assertions="1" time="0.000077"/>
-          <testcase name="testDate with data set #1" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="69" assertions="1" time="0.000054"/>
-          <testcase name="testDate with data set #2" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="69" assertions="1" time="0.000046"/>
+        <testsuite name="Unit\CarTest::testPrice" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.000094">
+          <testcase name="testPrice with data set #0" class="Unit\CarTest" classname="Unit.CarTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\CarTest.php" line="46" assertions="1" time="0.000030"/>
+          <testcase name="testPrice with data set #1" class="Unit\CarTest" classname="Unit.CarTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\CarTest.php" line="46" assertions="1" time="0.000026"/>
+          <testcase name="testPrice with data set #2" class="Unit\CarTest" classname="Unit.CarTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\CarTest.php" line="46" assertions="1" time="0.000038"/>
         </testsuite>
       </testsuite>
-      <testsuite name="Unit\UserTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\UserTest.php" tests="13" assertions="13" errors="0" warnings="0" failures="0" skipped="0" time="0.000838">
-        <testsuite name="Unit\UserTest::testUserName" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.000199">
-          <testcase name="testUserName with data set #0" class="Unit\UserTest" classname="Unit.UserTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\UserTest.php" line="13" assertions="1" time="0.000105"/>
-          <testcase name="testUserName with data set #1" class="Unit\UserTest" classname="Unit.UserTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\UserTest.php" line="13" assertions="1" time="0.000047"/>
-          <testcase name="testUserName with data set #2" class="Unit\UserTest" classname="Unit.UserTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\UserTest.php" line="13" assertions="1" time="0.000047"/>
+      <testsuite name="Unit\TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" tests="18" assertions="18" errors="0" warnings="0" failures="0" skipped="0" time="0.000662">
+        <testsuite name="Unit\TransctionTest::testCar" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.000106">
+          <testcase name="testCar with data set #0" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="15" assertions="1" time="0.000047"/>
+          <testcase name="testCar with data set #1" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="15" assertions="1" time="0.000022"/>
+          <testcase name="testCar with data set #2" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="15" assertions="1" time="0.000037"/>
         </testsuite>
-        <testsuite name="Unit\UserTest::testPassword" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.000187">
-          <testcase name="testPassword with data set #0" class="Unit\UserTest" classname="Unit.UserTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\UserTest.php" line="24" assertions="1" time="0.000082"/>
-          <testcase name="testPassword with data set #1" class="Unit\UserTest" classname="Unit.UserTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\UserTest.php" line="24" assertions="1" time="0.000049"/>
-          <testcase name="testPassword with data set #2" class="Unit\UserTest" classname="Unit.UserTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\UserTest.php" line="24" assertions="1" time="0.000056"/>
+        <testsuite name="Unit\TransctionTest::testCardName" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.000133">
+          <testcase name="testCardName with data set #0" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="26" assertions="1" time="0.000061"/>
+          <testcase name="testCardName with data set #1" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="26" assertions="1" time="0.000036"/>
+          <testcase name="testCardName with data set #2" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="26" assertions="1" time="0.000036"/>
         </testsuite>
-        <testsuite name="Unit\UserTest::testRole" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.000182">
-          <testcase name="testRole with data set #0" class="Unit\UserTest" classname="Unit.UserTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\UserTest.php" line="35" assertions="1" time="0.000077"/>
-          <testcase name="testRole with data set #1" class="Unit\UserTest" classname="Unit.UserTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\UserTest.php" line="35" assertions="1" time="0.000044"/>
-          <testcase name="testRole with data set #2" class="Unit\UserTest" classname="Unit.UserTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\UserTest.php" line="35" assertions="1" time="0.000061"/>
+        <testsuite name="Unit\TransctionTest::testCardNumber" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.000141">
+          <testcase name="testCardNumber with data set #0" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="36" assertions="1" time="0.000065"/>
+          <testcase name="testCardNumber with data set #1" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="36" assertions="1" time="0.000038"/>
+          <testcase name="testCardNumber with data set #2" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="36" assertions="1" time="0.000038"/>
         </testsuite>
-        <testsuite name="Unit\UserTest::testAddTransaction" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.000202">
-          <testcase name="testAddTransaction with data set #0" class="Unit\UserTest" classname="Unit.UserTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\UserTest.php" line="46" assertions="1" time="0.000106"/>
-          <testcase name="testAddTransaction with data set #1" class="Unit\UserTest" classname="Unit.UserTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\UserTest.php" line="46" assertions="1" time="0.000053"/>
-          <testcase name="testAddTransaction with data set #2" class="Unit\UserTest" classname="Unit.UserTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\UserTest.php" line="46" assertions="1" time="0.000043"/>
+        <testsuite name="Unit\TransctionTest::testCardCvv" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.000132">
+          <testcase name="testCardCvv with data set #0" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="47" assertions="1" time="0.000062"/>
+          <testcase name="testCardCvv with data set #1" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="47" assertions="1" time="0.000046"/>
+          <testcase name="testCardCvv with data set #2" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="47" assertions="1" time="0.000024"/>
         </testsuite>
-        <testcase name="testRemoveTransaction" class="Unit\UserTest" classname="Unit.UserTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\UserTest.php" line="54" assertions="1" time="0.000068"/>
+        <testsuite name="Unit\TransctionTest::testBuyer" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.000075">
+          <testcase name="testBuyer with data set #0" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="58" assertions="1" time="0.000034"/>
+          <testcase name="testBuyer with data set #1" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="58" assertions="1" time="0.000018"/>
+          <testcase name="testBuyer with data set #2" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="58" assertions="1" time="0.000023"/>
+        </testsuite>
+        <testsuite name="Unit\TransctionTest::testDate" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.000075">
+          <testcase name="testDate with data set #0" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="69" assertions="1" time="0.000037"/>
+          <testcase name="testDate with data set #1" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="69" assertions="1" time="0.000020"/>
+          <testcase name="testDate with data set #2" class="Unit\TransctionTest" classname="Unit.TransctionTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\TransctionTest.php" line="69" assertions="1" time="0.000018"/>
+        </testsuite>
       </testsuite>
-      <testsuite name="AboutPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebTest\AboutPageTest.php" tests="3" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.065649">
-        <testcase name="testTittle" class="AboutPageTest" classname="AboutPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebTest\AboutPageTest.php" line="8" assertions="3" time="0.020338"/>
-        <testcase name="testHeading" class="AboutPageTest" classname="AboutPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebTest\AboutPageTest.php" line="20" assertions="3" time="0.015665"/>
-        <testcase name="testParagraphe" class="AboutPageTest" classname="AboutPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebTest\AboutPageTest.php" line="32" assertions="3" time="0.029647"/>
+      <testsuite name="Unit\UserTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\UserTest.php" tests="13" assertions="13" errors="0" warnings="0" failures="0" skipped="0" time="0.000329">
+        <testsuite name="Unit\UserTest::testUserName" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.000072">
+          <testcase name="testUserName with data set #0" class="Unit\UserTest" classname="Unit.UserTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\UserTest.php" line="13" assertions="1" time="0.000036"/>
+          <testcase name="testUserName with data set #1" class="Unit\UserTest" classname="Unit.UserTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\UserTest.php" line="13" assertions="1" time="0.000019"/>
+          <testcase name="testUserName with data set #2" class="Unit\UserTest" classname="Unit.UserTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\UserTest.php" line="13" assertions="1" time="0.000017"/>
+        </testsuite>
+        <testsuite name="Unit\UserTest::testPassword" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.000065">
+          <testcase name="testPassword with data set #0" class="Unit\UserTest" classname="Unit.UserTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\UserTest.php" line="24" assertions="1" time="0.000031"/>
+          <testcase name="testPassword with data set #1" class="Unit\UserTest" classname="Unit.UserTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\UserTest.php" line="24" assertions="1" time="0.000017"/>
+          <testcase name="testPassword with data set #2" class="Unit\UserTest" classname="Unit.UserTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\UserTest.php" line="24" assertions="1" time="0.000017"/>
+        </testsuite>
+        <testsuite name="Unit\UserTest::testRole" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.000073">
+          <testcase name="testRole with data set #0" class="Unit\UserTest" classname="Unit.UserTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\UserTest.php" line="35" assertions="1" time="0.000030"/>
+          <testcase name="testRole with data set #1" class="Unit\UserTest" classname="Unit.UserTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\UserTest.php" line="35" assertions="1" time="0.000025"/>
+          <testcase name="testRole with data set #2" class="Unit\UserTest" classname="Unit.UserTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\UserTest.php" line="35" assertions="1" time="0.000019"/>
+        </testsuite>
+        <testsuite name="Unit\UserTest::testAddTransaction" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.000083">
+          <testcase name="testAddTransaction with data set #0" class="Unit\UserTest" classname="Unit.UserTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\UserTest.php" line="46" assertions="1" time="0.000042"/>
+          <testcase name="testAddTransaction with data set #1" class="Unit\UserTest" classname="Unit.UserTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\UserTest.php" line="46" assertions="1" time="0.000020"/>
+          <testcase name="testAddTransaction with data set #2" class="Unit\UserTest" classname="Unit.UserTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\UserTest.php" line="46" assertions="1" time="0.000021"/>
+        </testsuite>
+        <testcase name="testRemoveTransaction" class="Unit\UserTest" classname="Unit.UserTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\Unit\UserTest.php" line="54" assertions="1" time="0.000035"/>
       </testsuite>
-      <testsuite name="CarsPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebTest\CarsPageTest.php" tests="3" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.065583">
-        <testcase name="testTittle" class="CarsPageTest" classname="CarsPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebTest\CarsPageTest.php" line="8" assertions="3" time="0.017821"/>
-        <testcase name="testHeading" class="CarsPageTest" classname="CarsPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebTest\CarsPageTest.php" line="21" assertions="3" time="0.016778"/>
-        <testcase name="testHeading2" class="CarsPageTest" classname="CarsPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebTest\CarsPageTest.php" line="34" assertions="3" time="0.030984"/>
+      <testsuite name="AboutPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebAndDataBaseTest\AboutPageTest.php" tests="3" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.032819">
+        <testcase name="testTittle" class="AboutPageTest" classname="AboutPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebAndDataBaseTest\AboutPageTest.php" line="8" assertions="3" time="0.009240"/>
+        <testcase name="testHeading" class="AboutPageTest" classname="AboutPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebAndDataBaseTest\AboutPageTest.php" line="20" assertions="3" time="0.014109"/>
+        <testcase name="testParagraphe" class="AboutPageTest" classname="AboutPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebAndDataBaseTest\AboutPageTest.php" line="32" assertions="3" time="0.009470"/>
       </testsuite>
-      <testsuite name="ContactPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebTest\ContactPageTest.php" tests="1" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.020840">
-        <testcase name="testSomething" class="ContactPageTest" classname="ContactPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebTest\ContactPageTest.php" line="8" assertions="3" time="0.020840"/>
+      <testsuite name="CarsPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebAndDataBaseTest\CarsPageTest.php" tests="3" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.089679">
+        <testcase name="testTittle" class="CarsPageTest" classname="CarsPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebAndDataBaseTest\CarsPageTest.php" line="8" assertions="3" time="0.029504"/>
+        <testcase name="testHeading" class="CarsPageTest" classname="CarsPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebAndDataBaseTest\CarsPageTest.php" line="21" assertions="3" time="0.029616"/>
+        <testcase name="testHeading2" class="CarsPageTest" classname="CarsPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebAndDataBaseTest\CarsPageTest.php" line="34" assertions="3" time="0.030559"/>
       </testsuite>
-      <testsuite name="HomePageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebTest\HomePageTest.php" tests="2" assertions="6" errors="0" warnings="0" failures="0" skipped="0" time="0.045417">
-        <testcase name="testHeading" class="HomePageTest" classname="HomePageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebTest\HomePageTest.php" line="8" assertions="3" time="0.027823"/>
-        <testcase name="testParagraphe" class="HomePageTest" classname="HomePageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebTest\HomePageTest.php" line="20" assertions="3" time="0.017594"/>
+      <testsuite name="ContactPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebAndDataBaseTest\ContactPageTest.php" tests="1" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.019355">
+        <testcase name="testSomething" class="ContactPageTest" classname="ContactPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebAndDataBaseTest\ContactPageTest.php" line="8" assertions="3" time="0.019355"/>
       </testsuite>
-      <testsuite name="LoginPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebTest\LoginPageTest.php" tests="2" assertions="6" errors="0" warnings="0" failures="0" skipped="0" time="0.111470">
-        <testcase name="testTittle" class="LoginPageTest" classname="LoginPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebTest\LoginPageTest.php" line="8" assertions="3" time="0.041362"/>
-        <testcase name="testHeading" class="LoginPageTest" classname="LoginPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebTest\LoginPageTest.php" line="20" assertions="3" time="0.070108"/>
+      <testsuite name="HomePageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebAndDataBaseTest\HomePageTest.php" tests="2" assertions="6" errors="0" warnings="0" failures="0" skipped="0" time="0.057789">
+        <testcase name="testHeading" class="HomePageTest" classname="HomePageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebAndDataBaseTest\HomePageTest.php" line="8" assertions="3" time="0.028689"/>
+        <testcase name="testParagraphe" class="HomePageTest" classname="HomePageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebAndDataBaseTest\HomePageTest.php" line="20" assertions="3" time="0.029100"/>
       </testsuite>
-      <testsuite name="App\Tests\WebTest\ManagerPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebTest\ManagerPageTest.php" tests="3" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.363889">
-        <testcase name="testTittle" class="App\Tests\WebTest\ManagerPageTest" classname="App.Tests.WebTest.ManagerPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebTest\ManagerPageTest.php" line="11" assertions="4" time="0.133945"/>
-        <testcase name="testHeading" class="App\Tests\WebTest\ManagerPageTest" classname="App.Tests.WebTest.ManagerPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebTest\ManagerPageTest.php" line="31" assertions="4" time="0.039184"/>
-        <testcase name="testOtherUserAccessDenied" class="App\Tests\WebTest\ManagerPageTest" classname="App.Tests.WebTest.ManagerPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebTest\ManagerPageTest.php" line="51" assertions="1" time="0.190759"/>
+      <testsuite name="LoginPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebAndDataBaseTest\LoginPageTest.php" tests="2" assertions="6" errors="0" warnings="0" failures="0" skipped="0" time="0.087963">
+        <testcase name="testTittle" class="LoginPageTest" classname="LoginPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebAndDataBaseTest\LoginPageTest.php" line="8" assertions="3" time="0.023079"/>
+        <testcase name="testHeading" class="LoginPageTest" classname="LoginPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebAndDataBaseTest\LoginPageTest.php" line="20" assertions="3" time="0.064884"/>
       </testsuite>
-      <testsuite name="ProfilePageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebTest\ProfilePageTest.php" tests="1" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="0.038934">
-        <testcase name="testTittle" class="ProfilePageTest" classname="ProfilePageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebTest\ProfilePageTest.php" line="10" assertions="4" time="0.038934"/>
+      <testsuite name="App\Tests\WebTest\ManagerPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebAndDataBaseTest\ManagerPageTest.php" tests="3" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.360346">
+        <testcase name="testTittle" class="App\Tests\WebTest\ManagerPageTest" classname="App.Tests.WebTest.ManagerPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebAndDataBaseTest\ManagerPageTest.php" line="11" assertions="4" time="0.122736"/>
+        <testcase name="testHeading" class="App\Tests\WebTest\ManagerPageTest" classname="App.Tests.WebTest.ManagerPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebAndDataBaseTest\ManagerPageTest.php" line="31" assertions="4" time="0.050925"/>
+        <testcase name="testOtherUserAccessDenied" class="App\Tests\WebTest\ManagerPageTest" classname="App.Tests.WebTest.ManagerPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebAndDataBaseTest\ManagerPageTest.php" line="51" assertions="1" time="0.186685"/>
       </testsuite>
-      <testsuite name="SignUpPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebTest\SignUpPageTest.php" tests="2" assertions="6" errors="0" warnings="0" failures="0" skipped="0" time="0.191168">
-        <testcase name="testTittle" class="SignUpPageTest" classname="SignUpPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebTest\SignUpPageTest.php" line="8" assertions="3" time="0.119118"/>
-        <testcase name="testheading" class="SignUpPageTest" classname="SignUpPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebTest\SignUpPageTest.php" line="20" assertions="3" time="0.072051"/>
+      <testsuite name="ProfilePageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebAndDataBaseTest\ProfilePageTest.php" tests="1" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="0.064846">
+        <testcase name="testTittle" class="ProfilePageTest" classname="ProfilePageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebAndDataBaseTest\ProfilePageTest.php" line="10" assertions="4" time="0.064846"/>
       </testsuite>
-      <testsuite name="App\Tests\WebTest\UserRoleAccessibilityTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebTest\UserRoleAccessibilityTest.php" tests="6" assertions="17" errors="0" warnings="0" failures="0" skipped="0" time="0.604026">
-        <testcase name="testTransactionPageAccess" class="App\Tests\WebTest\UserRoleAccessibilityTest" classname="App.Tests.WebTest.UserRoleAccessibilityTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebTest\UserRoleAccessibilityTest.php" line="11" assertions="4" time="0.080846"/>
-        <testcase name="testUserPageAccess" class="App\Tests\WebTest\UserRoleAccessibilityTest" classname="App.Tests.WebTest.UserRoleAccessibilityTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebTest\UserRoleAccessibilityTest.php" line="30" assertions="4" time="0.047072"/>
-        <testcase name="testCarPageAccess" class="App\Tests\WebTest\UserRoleAccessibilityTest" classname="App.Tests.WebTest.UserRoleAccessibilityTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebTest\UserRoleAccessibilityTest.php" line="49" assertions="4" time="0.035262"/>
-        <testcase name="testTransactionPageAccessDenied" class="App\Tests\WebTest\UserRoleAccessibilityTest" classname="App.Tests.WebTest.UserRoleAccessibilityTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebTest\UserRoleAccessibilityTest.php" line="69" assertions="1" time="0.231619"/>
-        <testcase name="testUserPageAccessDenied" class="App\Tests\WebTest\UserRoleAccessibilityTest" classname="App.Tests.WebTest.UserRoleAccessibilityTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebTest\UserRoleAccessibilityTest.php" line="86" assertions="2" time="0.097205"/>
-        <testcase name="testCarPageAccessDenied" class="App\Tests\WebTest\UserRoleAccessibilityTest" classname="App.Tests.WebTest.UserRoleAccessibilityTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebTest\UserRoleAccessibilityTest.php" line="105" assertions="2" time="0.112022"/>
+      <testsuite name="SignUpPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebAndDataBaseTest\SignUpPageTest.php" tests="2" assertions="6" errors="0" warnings="0" failures="0" skipped="0" time="0.186785">
+        <testcase name="testTittle" class="SignUpPageTest" classname="SignUpPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebAndDataBaseTest\SignUpPageTest.php" line="8" assertions="3" time="0.114129"/>
+        <testcase name="testheading" class="SignUpPageTest" classname="SignUpPageTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebAndDataBaseTest\SignUpPageTest.php" line="20" assertions="3" time="0.072656"/>
+      </testsuite>
+      <testsuite name="App\Tests\WebTest\UserRoleAccessibilityTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebAndDataBaseTest\UserRoleAccessibilityTest.php" tests="6" assertions="17" errors="0" warnings="0" failures="0" skipped="0" time="0.502943">
+        <testcase name="testTransactionPageAccess" class="App\Tests\WebTest\UserRoleAccessibilityTest" classname="App.Tests.WebTest.UserRoleAccessibilityTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebAndDataBaseTest\UserRoleAccessibilityTest.php" line="11" assertions="4" time="0.074476"/>
+        <testcase name="testUserPageAccess" class="App\Tests\WebTest\UserRoleAccessibilityTest" classname="App.Tests.WebTest.UserRoleAccessibilityTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebAndDataBaseTest\UserRoleAccessibilityTest.php" line="30" assertions="4" time="0.064654"/>
+        <testcase name="testCarPageAccess" class="App\Tests\WebTest\UserRoleAccessibilityTest" classname="App.Tests.WebTest.UserRoleAccessibilityTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebAndDataBaseTest\UserRoleAccessibilityTest.php" line="49" assertions="4" time="0.050166"/>
+        <testcase name="testTransactionPageAccessDenied" class="App\Tests\WebTest\UserRoleAccessibilityTest" classname="App.Tests.WebTest.UserRoleAccessibilityTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebAndDataBaseTest\UserRoleAccessibilityTest.php" line="69" assertions="1" time="0.162803"/>
+        <testcase name="testUserPageAccessDenied" class="App\Tests\WebTest\UserRoleAccessibilityTest" classname="App.Tests.WebTest.UserRoleAccessibilityTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebAndDataBaseTest\UserRoleAccessibilityTest.php" line="86" assertions="2" time="0.080604"/>
+        <testcase name="testCarPageAccessDenied" class="App\Tests\WebTest\UserRoleAccessibilityTest" classname="App.Tests.WebTest.UserRoleAccessibilityTest" file="C:\Users\eman\Documents\GitHub\car_dealer\tests\WebAndDataBaseTest\UserRoleAccessibilityTest.php" line="105" assertions="2" time="0.070240"/>
       </testsuite>
     </testsuite>
   </testsuite>
