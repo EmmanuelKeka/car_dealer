@@ -48,7 +48,7 @@ class SignUpController extends AbstractController
             {
                 //Error handing code
             }
-
+            $this->addFlash('success', 'you have Sign up successfully now login');
             return $this->redirectToRoute('home', [], Response::HTTP_SEE_OTHER);
         }
         return $this->render('sign_up/index.html.twig',[
