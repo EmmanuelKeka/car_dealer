@@ -13,15 +13,17 @@ use Symfony\Component\Routing\Annotation\Route;
 
 use Symfony\Component\PasswordHasher\Hasher\UserPasswordHasherInterface;
 
-
-#[Route('/user')]
 #[IsGranted('ROLE_USER')]
+#[Route('/user')]
 class UserController extends AbstractController
 {
     private UserPasswordHasherInterface $passwordHasher;
 
     private function hasValidUserRole()
     {
+        if($this->getUser() ==null){
+            return false;
+        }
         $user = $this->getUser();
         $roles = $user->getRoles();
 

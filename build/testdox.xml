@@ -1,207 +1,207 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tests>
-  <test className="App\Tests\CarPublicTest" methodName="testTittle" prettifiedClassName="Car Public (App\Tests\CarPublic)" prettifiedMethodName="Tittle" status="0" time="1.6762266" size="-1" groups="default">
+  <test className="App\Tests\CarPublicTest" methodName="testTittle" prettifiedClassName="Car Public (App\Tests\CarPublic)" prettifiedMethodName="Tittle" status="0" time="17.6867879" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="App\Tests\CarPublicTest" methodName="testHeading" prettifiedClassName="Car Public (App\Tests\CarPublic)" prettifiedMethodName="Heading" status="0" time="0.0387097" size="-1" groups="default">
+  <test className="App\Tests\CarPublicTest" methodName="testHeading" prettifiedClassName="Car Public (App\Tests\CarPublic)" prettifiedMethodName="Heading" status="0" time="0.0314877" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\CarTest" methodName="testCarMake with data set #0" prettifiedClassName="Car (Unit\Car)" prettifiedMethodName="Car make with data set #0" status="0" time="0.0004036" size="-1" groups="default">
+  <test className="Unit\CarTest" methodName="testCarMake with data set #0" prettifiedClassName="Car (Unit\Car)" prettifiedMethodName="Car make with data set #0" status="0" time="0.0127174" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\CarTest" methodName="testCarMake with data set #1" prettifiedClassName="Car (Unit\Car)" prettifiedMethodName="Car make with data set #1" status="0" time="2.26E-5" size="-1" groups="default">
+  <test className="Unit\CarTest" methodName="testCarMake with data set #1" prettifiedClassName="Car (Unit\Car)" prettifiedMethodName="Car make with data set #1" status="0" time="2.58E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\CarTest" methodName="testCarMake with data set #2" prettifiedClassName="Car (Unit\Car)" prettifiedMethodName="Car make with data set #2" status="0" time="5.97E-5" size="-1" groups="default">
+  <test className="Unit\CarTest" methodName="testCarMake with data set #2" prettifiedClassName="Car (Unit\Car)" prettifiedMethodName="Car make with data set #2" status="0" time="2.11E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\CarTest" methodName="testCarModel with data set #0" prettifiedClassName="Car (Unit\Car)" prettifiedMethodName="Car model with data set #0" status="0" time="3.06E-5" size="-1" groups="default">
+  <test className="Unit\CarTest" methodName="testCarModel with data set #0" prettifiedClassName="Car (Unit\Car)" prettifiedMethodName="Car model with data set #0" status="0" time="3.68E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\CarTest" methodName="testCarModel with data set #1" prettifiedClassName="Car (Unit\Car)" prettifiedMethodName="Car model with data set #1" status="0" time="1.67E-5" size="-1" groups="default">
+  <test className="Unit\CarTest" methodName="testCarModel with data set #1" prettifiedClassName="Car (Unit\Car)" prettifiedMethodName="Car model with data set #1" status="0" time="1.73E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\CarTest" methodName="testCarModel with data set #2" prettifiedClassName="Car (Unit\Car)" prettifiedMethodName="Car model with data set #2" status="0" time="1.71E-5" size="-1" groups="default">
+  <test className="Unit\CarTest" methodName="testCarModel with data set #2" prettifiedClassName="Car (Unit\Car)" prettifiedMethodName="Car model with data set #2" status="0" time="1.61E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\CarTest" methodName="testImage with data set #0" prettifiedClassName="Car (Unit\Car)" prettifiedMethodName="Image with data set #0" status="0" time="3.25E-5" size="-1" groups="default">
+  <test className="Unit\CarTest" methodName="testImage with data set #0" prettifiedClassName="Car (Unit\Car)" prettifiedMethodName="Image with data set #0" status="0" time="3.13E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\CarTest" methodName="testImage with data set #1" prettifiedClassName="Car (Unit\Car)" prettifiedMethodName="Image with data set #1" status="0" time="1.59E-5" size="-1" groups="default">
+  <test className="Unit\CarTest" methodName="testImage with data set #1" prettifiedClassName="Car (Unit\Car)" prettifiedMethodName="Image with data set #1" status="0" time="1.64E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\CarTest" methodName="testImage with data set #2" prettifiedClassName="Car (Unit\Car)" prettifiedMethodName="Image with data set #2" status="0" time="1.55E-5" size="-1" groups="default">
+  <test className="Unit\CarTest" methodName="testImage with data set #2" prettifiedClassName="Car (Unit\Car)" prettifiedMethodName="Image with data set #2" status="0" time="1.59E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\CarTest" methodName="testPrice with data set #0" prettifiedClassName="Car (Unit\Car)" prettifiedMethodName="Price with data set #0" status="0" time="3.04E-5" size="-1" groups="default">
+  <test className="Unit\CarTest" methodName="testPrice with data set #0" prettifiedClassName="Car (Unit\Car)" prettifiedMethodName="Price with data set #0" status="0" time="3.32E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\CarTest" methodName="testPrice with data set #1" prettifiedClassName="Car (Unit\Car)" prettifiedMethodName="Price with data set #1" status="0" time="2.58E-5" size="-1" groups="default">
+  <test className="Unit\CarTest" methodName="testPrice with data set #1" prettifiedClassName="Car (Unit\Car)" prettifiedMethodName="Price with data set #1" status="0" time="1.57E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\CarTest" methodName="testPrice with data set #2" prettifiedClassName="Car (Unit\Car)" prettifiedMethodName="Price with data set #2" status="0" time="3.83E-5" size="-1" groups="default">
+  <test className="Unit\CarTest" methodName="testPrice with data set #2" prettifiedClassName="Car (Unit\Car)" prettifiedMethodName="Price with data set #2" status="0" time="1.53E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\TransctionTest" methodName="testCar with data set #0" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Car with data set #0" status="0" time="4.67E-5" size="-1" groups="default">
+  <test className="Unit\TransctionTest" methodName="testCar with data set #0" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Car with data set #0" status="0" time="3.67E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\TransctionTest" methodName="testCar with data set #1" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Car with data set #1" status="0" time="2.21E-5" size="-1" groups="default">
+  <test className="Unit\TransctionTest" methodName="testCar with data set #1" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Car with data set #1" status="0" time="1.93E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\TransctionTest" methodName="testCar with data set #2" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Car with data set #2" status="0" time="3.69E-5" size="-1" groups="default">
+  <test className="Unit\TransctionTest" methodName="testCar with data set #2" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Car with data set #2" status="0" time="3.29E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\TransctionTest" methodName="testCardName with data set #0" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Card name with data set #0" status="0" time="6.08E-5" size="-1" groups="default">
+  <test className="Unit\TransctionTest" methodName="testCardName with data set #0" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Card name with data set #0" status="0" time="4.42E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\TransctionTest" methodName="testCardName with data set #1" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Card name with data set #1" status="0" time="3.63E-5" size="-1" groups="default">
+  <test className="Unit\TransctionTest" methodName="testCardName with data set #1" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Card name with data set #1" status="0" time="1.59E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\TransctionTest" methodName="testCardName with data set #2" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Card name with data set #2" status="0" time="3.61E-5" size="-1" groups="default">
+  <test className="Unit\TransctionTest" methodName="testCardName with data set #2" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Card name with data set #2" status="0" time="3.19E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\TransctionTest" methodName="testCardNumber with data set #0" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Card number with data set #0" status="0" time="6.54E-5" size="-1" groups="default">
+  <test className="Unit\TransctionTest" methodName="testCardNumber with data set #0" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Card number with data set #0" status="0" time="3.42E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\TransctionTest" methodName="testCardNumber with data set #1" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Card number with data set #1" status="0" time="3.76E-5" size="-1" groups="default">
+  <test className="Unit\TransctionTest" methodName="testCardNumber with data set #1" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Card number with data set #1" status="0" time="3.22E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\TransctionTest" methodName="testCardNumber with data set #2" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Card number with data set #2" status="0" time="3.81E-5" size="-1" groups="default">
+  <test className="Unit\TransctionTest" methodName="testCardNumber with data set #2" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Card number with data set #2" status="0" time="1.6E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\TransctionTest" methodName="testCardCvv with data set #0" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Card cvv with data set #0" status="0" time="6.24E-5" size="-1" groups="default">
+  <test className="Unit\TransctionTest" methodName="testCardCvv with data set #0" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Card cvv with data set #0" status="0" time="2.74E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\TransctionTest" methodName="testCardCvv with data set #1" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Card cvv with data set #1" status="0" time="4.6E-5" size="-1" groups="default">
+  <test className="Unit\TransctionTest" methodName="testCardCvv with data set #1" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Card cvv with data set #1" status="0" time="3.34E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\TransctionTest" methodName="testCardCvv with data set #2" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Card cvv with data set #2" status="0" time="2.38E-5" size="-1" groups="default">
+  <test className="Unit\TransctionTest" methodName="testCardCvv with data set #2" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Card cvv with data set #2" status="0" time="1.49E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\TransctionTest" methodName="testBuyer with data set #0" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Buyer with data set #0" status="0" time="3.35E-5" size="-1" groups="default">
+  <test className="Unit\TransctionTest" methodName="testBuyer with data set #0" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Buyer with data set #0" status="0" time="4.31E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\TransctionTest" methodName="testBuyer with data set #1" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Buyer with data set #1" status="0" time="1.78E-5" size="-1" groups="default">
+  <test className="Unit\TransctionTest" methodName="testBuyer with data set #1" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Buyer with data set #1" status="0" time="3.19E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\TransctionTest" methodName="testBuyer with data set #2" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Buyer with data set #2" status="0" time="2.35E-5" size="-1" groups="default">
+  <test className="Unit\TransctionTest" methodName="testBuyer with data set #2" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Buyer with data set #2" status="0" time="1.55E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\TransctionTest" methodName="testDate with data set #0" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Date with data set #0" status="0" time="3.71E-5" size="-1" groups="default">
+  <test className="Unit\TransctionTest" methodName="testDate with data set #0" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Date with data set #0" status="0" time="4.42E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\TransctionTest" methodName="testDate with data set #1" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Date with data set #1" status="0" time="1.96E-5" size="-1" groups="default">
+  <test className="Unit\TransctionTest" methodName="testDate with data set #1" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Date with data set #1" status="0" time="1.52E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\TransctionTest" methodName="testDate with data set #2" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Date with data set #2" status="0" time="1.84E-5" size="-1" groups="default">
+  <test className="Unit\TransctionTest" methodName="testDate with data set #2" prettifiedClassName="Transction (Unit\Transction)" prettifiedMethodName="Date with data set #2" status="0" time="1.49E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\UserTest" methodName="testUserName with data set #0" prettifiedClassName="User (Unit\User)" prettifiedMethodName="User name with data set #0" status="0" time="3.62E-5" size="-1" groups="default">
+  <test className="Unit\UserTest" methodName="testUserName with data set #0" prettifiedClassName="User (Unit\User)" prettifiedMethodName="User name with data set #0" status="0" time="3.53E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\UserTest" methodName="testUserName with data set #1" prettifiedClassName="User (Unit\User)" prettifiedMethodName="User name with data set #1" status="0" time="1.91E-5" size="-1" groups="default">
+  <test className="Unit\UserTest" methodName="testUserName with data set #1" prettifiedClassName="User (Unit\User)" prettifiedMethodName="User name with data set #1" status="0" time="2.47E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\UserTest" methodName="testUserName with data set #2" prettifiedClassName="User (Unit\User)" prettifiedMethodName="User name with data set #2" status="0" time="1.71E-5" size="-1" groups="default">
+  <test className="Unit\UserTest" methodName="testUserName with data set #2" prettifiedClassName="User (Unit\User)" prettifiedMethodName="User name with data set #2" status="0" time="2.42E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\UserTest" methodName="testPassword with data set #0" prettifiedClassName="User (Unit\User)" prettifiedMethodName="Password with data set #0" status="0" time="3.12E-5" size="-1" groups="default">
+  <test className="Unit\UserTest" methodName="testPassword with data set #0" prettifiedClassName="User (Unit\User)" prettifiedMethodName="Password with data set #0" status="0" time="3.94E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\UserTest" methodName="testPassword with data set #1" prettifiedClassName="User (Unit\User)" prettifiedMethodName="Password with data set #1" status="0" time="1.72E-5" size="-1" groups="default">
+  <test className="Unit\UserTest" methodName="testPassword with data set #1" prettifiedClassName="User (Unit\User)" prettifiedMethodName="Password with data set #1" status="0" time="2.28E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\UserTest" methodName="testPassword with data set #2" prettifiedClassName="User (Unit\User)" prettifiedMethodName="Password with data set #2" status="0" time="1.66E-5" size="-1" groups="default">
+  <test className="Unit\UserTest" methodName="testPassword with data set #2" prettifiedClassName="User (Unit\User)" prettifiedMethodName="Password with data set #2" status="0" time="2.3E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\UserTest" methodName="testRole with data set #0" prettifiedClassName="User (Unit\User)" prettifiedMethodName="Role with data set #0" status="0" time="2.96E-5" size="-1" groups="default">
+  <test className="Unit\UserTest" methodName="testRole with data set #0" prettifiedClassName="User (Unit\User)" prettifiedMethodName="Role with data set #0" status="0" time="3.91E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\UserTest" methodName="testRole with data set #1" prettifiedClassName="User (Unit\User)" prettifiedMethodName="Role with data set #1" status="0" time="2.51E-5" size="-1" groups="default">
+  <test className="Unit\UserTest" methodName="testRole with data set #1" prettifiedClassName="User (Unit\User)" prettifiedMethodName="Role with data set #1" status="0" time="2.29E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\UserTest" methodName="testRole with data set #2" prettifiedClassName="User (Unit\User)" prettifiedMethodName="Role with data set #2" status="0" time="1.86E-5" size="-1" groups="default">
+  <test className="Unit\UserTest" methodName="testRole with data set #2" prettifiedClassName="User (Unit\User)" prettifiedMethodName="Role with data set #2" status="0" time="2.58E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\UserTest" methodName="testAddTransaction with data set #0" prettifiedClassName="User (Unit\User)" prettifiedMethodName="Add transaction with data set #0" status="0" time="4.22E-5" size="-1" groups="default">
+  <test className="Unit\UserTest" methodName="testAddTransaction with data set #0" prettifiedClassName="User (Unit\User)" prettifiedMethodName="Add transaction with data set #0" status="0" time="4.38E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\UserTest" methodName="testAddTransaction with data set #1" prettifiedClassName="User (Unit\User)" prettifiedMethodName="Add transaction with data set #1" status="0" time="2.02E-5" size="-1" groups="default">
+  <test className="Unit\UserTest" methodName="testAddTransaction with data set #1" prettifiedClassName="User (Unit\User)" prettifiedMethodName="Add transaction with data set #1" status="0" time="2.5E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\UserTest" methodName="testAddTransaction with data set #2" prettifiedClassName="User (Unit\User)" prettifiedMethodName="Add transaction with data set #2" status="0" time="2.09E-5" size="-1" groups="default">
+  <test className="Unit\UserTest" methodName="testAddTransaction with data set #2" prettifiedClassName="User (Unit\User)" prettifiedMethodName="Add transaction with data set #2" status="0" time="2.47E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Unit\UserTest" methodName="testRemoveTransaction" prettifiedClassName="User (Unit\User)" prettifiedMethodName="Remove transaction" status="0" time="3.46E-5" size="-1" groups="default">
+  <test className="Unit\UserTest" methodName="testRemoveTransaction" prettifiedClassName="User (Unit\User)" prettifiedMethodName="Remove transaction" status="0" time="4.05E-5" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="AboutPageTest" methodName="testTittle" prettifiedClassName="About Page" prettifiedMethodName="Tittle" status="0" time="0.0092399" size="-1" groups="default">
+  <test className="AboutPageTest" methodName="testTittle" prettifiedClassName="About Page" prettifiedMethodName="Tittle" status="0" time="0.0370494" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="AboutPageTest" methodName="testHeading" prettifiedClassName="About Page" prettifiedMethodName="Heading" status="0" time="0.0141089" size="-1" groups="default">
+  <test className="AboutPageTest" methodName="testHeading" prettifiedClassName="About Page" prettifiedMethodName="Heading" status="0" time="0.0131111" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="AboutPageTest" methodName="testParagraphe" prettifiedClassName="About Page" prettifiedMethodName="Paragraphe" status="0" time="0.0094698" size="-1" groups="default">
+  <test className="AboutPageTest" methodName="testParagraphe" prettifiedClassName="About Page" prettifiedMethodName="Paragraphe" status="0" time="0.0087834" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="CarsPageTest" methodName="testTittle" prettifiedClassName="Cars Page" prettifiedMethodName="Tittle" status="0" time="0.0295036" size="-1" groups="default">
+  <test className="CarsPageTest" methodName="testTittle" prettifiedClassName="Cars Page" prettifiedMethodName="Tittle" status="0" time="0.0089668" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="CarsPageTest" methodName="testHeading" prettifiedClassName="Cars Page" prettifiedMethodName="Heading" status="0" time="0.0296159" size="-1" groups="default">
+  <test className="CarsPageTest" methodName="testHeading" prettifiedClassName="Cars Page" prettifiedMethodName="Heading" status="0" time="0.01582" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="CarsPageTest" methodName="testHeading2" prettifiedClassName="Cars Page" prettifiedMethodName="Heading" status="0" time="0.0305594" size="-1" groups="default">
+  <test className="CarsPageTest" methodName="testHeading2" prettifiedClassName="Cars Page" prettifiedMethodName="Heading" status="0" time="0.0173152" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="ContactPageTest" methodName="testSomething" prettifiedClassName="Contact Page" prettifiedMethodName="Something" status="0" time="0.019355" size="-1" groups="default">
+  <test className="ContactPageTest" methodName="testSomething" prettifiedClassName="Contact Page" prettifiedMethodName="Something" status="0" time="0.0381922" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="HomePageTest" methodName="testHeading" prettifiedClassName="Home Page" prettifiedMethodName="Heading" status="0" time="0.0286894" size="-1" groups="default">
+  <test className="HomePageTest" methodName="testHeading" prettifiedClassName="Home Page" prettifiedMethodName="Heading" status="0" time="0.0442457" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="HomePageTest" methodName="testParagraphe" prettifiedClassName="Home Page" prettifiedMethodName="Paragraphe" status="0" time="0.0290998" size="-1" groups="default">
+  <test className="HomePageTest" methodName="testParagraphe" prettifiedClassName="Home Page" prettifiedMethodName="Paragraphe" status="0" time="0.0284998" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="LoginPageTest" methodName="testTittle" prettifiedClassName="Login Page" prettifiedMethodName="Tittle" status="0" time="0.0230786" size="-1" groups="default">
+  <test className="LoginPageTest" methodName="testTittle" prettifiedClassName="Login Page" prettifiedMethodName="Tittle" status="0" time="0.0516333" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="LoginPageTest" methodName="testHeading" prettifiedClassName="Login Page" prettifiedMethodName="Heading" status="0" time="0.0648842" size="-1" groups="default">
+  <test className="LoginPageTest" methodName="testHeading" prettifiedClassName="Login Page" prettifiedMethodName="Heading" status="0" time="0.0457615" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="App\Tests\WebTest\ManagerPageTest" methodName="testTittle" prettifiedClassName="Manager Page (App\Tests\WebTest\ManagerPage)" prettifiedMethodName="Tittle" status="0" time="0.1227363" size="-1" groups="default">
+  <test className="App\Tests\WebTest\ManagerPageTest" methodName="testTittle" prettifiedClassName="Manager Page (App\Tests\WebTest\ManagerPage)" prettifiedMethodName="Tittle" status="0" time="0.3718157" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="App\Tests\WebTest\ManagerPageTest" methodName="testHeading" prettifiedClassName="Manager Page (App\Tests\WebTest\ManagerPage)" prettifiedMethodName="Heading" status="0" time="0.0509246" size="-1" groups="default">
+  <test className="App\Tests\WebTest\ManagerPageTest" methodName="testHeading" prettifiedClassName="Manager Page (App\Tests\WebTest\ManagerPage)" prettifiedMethodName="Heading" status="0" time="0.0580185" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="App\Tests\WebTest\ManagerPageTest" methodName="testOtherUserAccessDenied" prettifiedClassName="Manager Page (App\Tests\WebTest\ManagerPage)" prettifiedMethodName="Other user access denied" status="0" time="0.1866854" size="-1" groups="default">
+  <test className="App\Tests\WebTest\ManagerPageTest" methodName="testOtherUserAccessDenied" prettifiedClassName="Manager Page (App\Tests\WebTest\ManagerPage)" prettifiedMethodName="Other user access denied" status="0" time="0.2709799" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="ProfilePageTest" methodName="testTittle" prettifiedClassName="Profile Page" prettifiedMethodName="Tittle" status="0" time="0.0648464" size="-1" groups="default">
+  <test className="ProfilePageTest" methodName="testTittle" prettifiedClassName="Profile Page" prettifiedMethodName="Tittle" status="0" time="0.0880804" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="SignUpPageTest" methodName="testTittle" prettifiedClassName="Sign Up Page" prettifiedMethodName="Tittle" status="0" time="0.1141291" size="-1" groups="default">
+  <test className="SignUpPageTest" methodName="testTittle" prettifiedClassName="Sign Up Page" prettifiedMethodName="Tittle" status="0" time="2.1879181" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="SignUpPageTest" methodName="testheading" prettifiedClassName="Sign Up Page" prettifiedMethodName="Heading" status="0" time="0.0726563" size="-1" groups="default">
+  <test className="SignUpPageTest" methodName="testheading" prettifiedClassName="Sign Up Page" prettifiedMethodName="Heading" status="0" time="0.0549067" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="App\Tests\WebTest\UserRoleAccessibilityTest" methodName="testTransactionPageAccess" prettifiedClassName="User Role Accessibility (App\Tests\WebTest\UserRoleAccessibility)" prettifiedMethodName="Transaction page access" status="0" time="0.0744764" size="-1" groups="default">
+  <test className="App\Tests\WebTest\UserRoleAccessibilityTest" methodName="testTransactionPageAccess" prettifiedClassName="User Role Accessibility (App\Tests\WebTest\UserRoleAccessibility)" prettifiedMethodName="Transaction page access" status="0" time="0.100041" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="App\Tests\WebTest\UserRoleAccessibilityTest" methodName="testUserPageAccess" prettifiedClassName="User Role Accessibility (App\Tests\WebTest\UserRoleAccessibility)" prettifiedMethodName="User page access" status="0" time="0.0646535" size="-1" groups="default">
+  <test className="App\Tests\WebTest\UserRoleAccessibilityTest" methodName="testUserPageAccess" prettifiedClassName="User Role Accessibility (App\Tests\WebTest\UserRoleAccessibility)" prettifiedMethodName="User page access" status="0" time="0.1062437" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="App\Tests\WebTest\UserRoleAccessibilityTest" methodName="testCarPageAccess" prettifiedClassName="User Role Accessibility (App\Tests\WebTest\UserRoleAccessibility)" prettifiedMethodName="Car page access" status="0" time="0.050166" size="-1" groups="default">
+  <test className="App\Tests\WebTest\UserRoleAccessibilityTest" methodName="testCarPageAccess" prettifiedClassName="User Role Accessibility (App\Tests\WebTest\UserRoleAccessibility)" prettifiedMethodName="Car page access" status="0" time="0.0672757" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="App\Tests\WebTest\UserRoleAccessibilityTest" methodName="testTransactionPageAccessDenied" prettifiedClassName="User Role Accessibility (App\Tests\WebTest\UserRoleAccessibility)" prettifiedMethodName="Transaction page access denied" status="0" time="0.1628034" size="-1" groups="default">
+  <test className="App\Tests\WebTest\UserRoleAccessibilityTest" methodName="testTransactionPageAccessDenied" prettifiedClassName="User Role Accessibility (App\Tests\WebTest\UserRoleAccessibility)" prettifiedMethodName="Transaction page access denied" status="0" time="0.1626138" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="App\Tests\WebTest\UserRoleAccessibilityTest" methodName="testUserPageAccessDenied" prettifiedClassName="User Role Accessibility (App\Tests\WebTest\UserRoleAccessibility)" prettifiedMethodName="User page access denied" status="0" time="0.0806038" size="-1" groups="default">
+  <test className="App\Tests\WebTest\UserRoleAccessibilityTest" methodName="testUserPageAccessDenied" prettifiedClassName="User Role Accessibility (App\Tests\WebTest\UserRoleAccessibility)" prettifiedMethodName="User page access denied" status="0" time="0.0704319" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="App\Tests\WebTest\UserRoleAccessibilityTest" methodName="testCarPageAccessDenied" prettifiedClassName="User Role Accessibility (App\Tests\WebTest\UserRoleAccessibility)" prettifiedMethodName="Car page access denied" status="0" time="0.0702397" size="-1" groups="default">
+  <test className="App\Tests\WebTest\UserRoleAccessibilityTest" methodName="testCarPageAccessDenied" prettifiedClassName="User Role Accessibility (App\Tests\WebTest\UserRoleAccessibility)" prettifiedMethodName="Car page access denied" status="0" time="0.0818004" size="-1" groups="default">
     <group name="default"/>
   </test>
 </tests>

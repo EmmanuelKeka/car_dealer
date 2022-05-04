@@ -17,6 +17,9 @@ class TransactionController extends AbstractController
 {
     private function hasValidUserRole()
     {
+        if($this->getUser() ==null){
+            return false;
+        }
         $user = $this->getUser();
         $roles = $user->getRoles();
 
